@@ -2,7 +2,11 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+      <a href='/login'>Login</a>
+      <hr />
+      <div>Home</div>
+    </>
   )
 }
 
